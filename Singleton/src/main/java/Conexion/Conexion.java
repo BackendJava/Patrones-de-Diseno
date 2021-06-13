@@ -1,16 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Conexion;
 
-/**
- *
- * @author elmer
- */
 public class Conexion {
-    //DeclaraciÃ³n
+	
+	//Declaración
 	private static Conexion instancia;
 	//private static Conexion instancia = new Conexion();
 	
@@ -28,13 +20,14 @@ public class Conexion {
 		return instancia;
 	}
 	
-	//MÃ©todo de prueba
+	//Método de prueba
 	public void conectar() {
-		System.out.println("Me conectÃ© a la BD");
+		System.out.println("Me conecté a la BD");
 	}
 	
-	//MÃ©todo de prueba
+	//Método de prueba
 	public void desconectar() {
-		System.out.println("Me desconectÃ© de la BD");
+		System.out.println("Me desconecté de la BD");
 	}
+
 }
